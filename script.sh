@@ -122,7 +122,7 @@ echo ""
 echo ""
 
 echo "Selecting Winner..."
-cat $TEMPFILE | logtop | sort -nr | head -n 1
+WINNERTOP=$(cat $TEMPFILE | logtop | sort -nr | head -n 1)
 echo ""
 echo ""
 
