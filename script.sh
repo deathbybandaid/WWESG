@@ -122,7 +122,7 @@ echo ""
 echo ""
 
 echo "Selecting Winner..."
-WINNERTOP=$(cat $TEMPFILE | logtop | sort -nr | head -n 1)
+WINNERTOP=$(cat $TEMPFILE | logtop | head -n 1)
 WINNERTOPFIX=$(echo $WINNERTOP | sed 's/[0-9\-]/ /g')
 WINNERTOPFIXB=$(echo $WINNERTOPFIX | sed 's/ / /g')
 ACTUALWINNER=$(echo $WINNERTOPFIXB)
