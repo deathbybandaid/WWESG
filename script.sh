@@ -122,7 +122,7 @@ echo ""
 echo ""
 
 echo "Selecting Winner..."
-cat $TEMPFILE | wordfrequency
+cat $TEMPFILE | wordfreq
 echo ""
 echo ""
 
