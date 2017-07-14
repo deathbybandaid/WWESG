@@ -122,7 +122,8 @@ echo ""
 echo ""
 
 echo "Selecting Winner..."
-cat $TEMPFILE | logtop | sort -nr
+cat $TEMPFILE | printf "\n" | sort | uniq -c | sort -nr
+#cat $TEMPFILE | logtop | sort -nr
 echo ""
 echo ""
 
