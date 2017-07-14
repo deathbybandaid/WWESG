@@ -129,7 +129,8 @@ echo ""
 
 echo "The winner is:"
 echo ""
-echo "$"$WINNERTOPFIX""
+echo "$($WINNERTOPFIX)"
+
 echo ""
 echo ""
 CHECKME=$TEMPFILE
