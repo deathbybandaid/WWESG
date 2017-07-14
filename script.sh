@@ -122,7 +122,7 @@ echo ""
 echo ""
 
 echo "Selecting Winner..."
-cat $TEMPFILE | logtop
+cat $TEMPFILE | logtop | head -n 1
 echo ""
 echo ""
 
